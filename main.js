@@ -31,7 +31,7 @@ var tabulate = function (data,columns) {
 
 
   
-  d3.csv('https://raw.githubusercontent.com/lisarabbers/data/main/enron-v1.csv',function (data) {
+  d3.csv('enron-v1.csv',function (data) {
     var columns = ['date','fromId','fromEmail','fromJobtitle','toId','toEmail','toJobtitle','messageType','sentiment']
     tabulate(data,columns)
   })
