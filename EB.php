@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <head>
-    <link rel="stylesheet" href="style/EBstyle.css?version=">
+    <link rel="stylesheet" href="style/EBstyle.css">
     <link rel="stylesheet" href="style/reset.css">
     <script src="https://d3js.org/d3.v4.min.js"></script>
 </head>
