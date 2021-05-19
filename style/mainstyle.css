@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+header{
+    display: flex;
+    position: fixed;
+    text-align: right;
+    align-self: right;
+    align-items: right;
+    height: 50px;
+    line-height: 50px;
+}
+header *{
+    display: inline-block;
+    height: 50px;
+}
+header li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section {
+    height: 100vh;
+    border: 1px solid green;
+}
+.background{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(213, 230, 209, 0.7), rgba(180, 187, 216, 0.7)), url(https://canue.ca/wp-content/uploads/2019/01/DataScience_lrg.png);
+    background-size: cover;
+    position: relative;
+}
+.background h2{
+    align-self: flex-end;
+}
+.menu{
+    flex: 1;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 16px;
+    position: relative;
+    justify-content: right;
+    justify-self: right;
+    text-align: right;
+    font-family: "Times New Roman", Times, serif;
+}
+.menu ul li a{
+    color:rgba(255, 115, 0, 0.829);
+    text-decoration: 1px solid cyan;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    justify-self: right;
+}
+.menu ul li::after{
+    content: '';
+    height: 2px;
+    background: rgba(145, 145, 235, 0.849);
+    width: 0%;
+    display: block;
+    transition: 1s;
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+.heading{
+    width: 100%;
+    color:darkblue;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+.heading h1{
+    font-size: 70px;
+    font-family: "Times New Roman", Times, serif;
+}
+.button{
+    font-size: 30px;
+    color:rgb(255, 136, 0);
+    border: 3px solid rgb(52, 50, 175);
+    background:rgba(145, 145, 235, 0.849);
+    border-radius: 20px;
+    padding: 12px 18px;
+    display: inline-block;
+    transition: background-color 1s;
+}
+.button:hover{
+    background-color: darkblue;
+}
+.about{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(213, 230, 209, 0.7), rgba(180, 187, 216, 0.7)), url(https://public-media.interaction-design.org/images/uploads/49cc66880bd19f638136237261b1066e.jpg);
+    background-size: cover;
+    position: relative;    
+}
+.middle h1{
+    color: rgb(192, 31, 31);
+    padding: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+.middle p{
+    text-indent: 50px;
+    font-size: 25px;
+    border: 3px solid rgb(52, 50, 175);
+    color: white;
+    background:rgba(115, 115, 212, 0.74);
+    border-radius: 20px;
+    padding: 12px 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22em;
+    text-align: center;
+}
+img {
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
